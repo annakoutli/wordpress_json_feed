@@ -1,0 +1,39 @@
+#feed .hfeed h3 a{
+	padding: 0;	
+	font-size: 110%;
+	font-weight: 700;
+	color: #A5B55B;
+}
+
+ul.hfeed li{
+	list-style-type: none;	
+	margin-bottom: 2em;
+}
+
+ul.hfeed li a{
+	color: #FF9414;	
+}
+
+ul.hfeed li a:hover{
+	text-decoration: underline;	
+}
+
+ul.hfeed .avatar{
+	display: block;
+	float: left;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;	
+	background: url("images/avatar.jpg") no-repeat;	
+	height: 70px;
+	width: 70px;
+	margin-right: 0.7em;
+}
+
+ul.hfeed .paris-platanias{
+	background: url("images/platanias.jpg") no-repeat;	
+}
+
+ul.hfeed .annakoutli{
+	background: url("images/anna.jpg") no-repeat;	
+}

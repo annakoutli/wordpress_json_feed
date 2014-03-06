@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xml;lang="en">
+	<head>
+		<title>Simple Wordpress blog feed using json for HTML website</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>This example is using a feed from a Greek Wordpress blog, but the code is prety much simple</h1>
+		<p>Few lines for explaining. 'http://internetatmajor.com/blog/?json=1' link for json feed '&count=2' added to get the 2 last posts '&callback=listPosts' listPosts is the name of the function I used in the script.js file in order to get the data.</p>
+		<p>Styling issues I wanted to have an avatar for every posts, I added that with css, it's not directly from the feed.</p>
+		<div id="feed">
+			<!-- the feed goes in here id feed is used also for markup purposes -->
+		</div>
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<script src="http://internetatmajor.com/blog/?json=1&count=2&callback=listPosts"></script>
+		
+	</body>
+</html>
